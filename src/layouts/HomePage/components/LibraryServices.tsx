@@ -10,7 +10,7 @@ export const LibraryServices = () => {
                         If you cannot find what you are looking for, send our library a message!
                     </p>
                     <div className='d-grid gap-2 justify-content-md-start mb-4 mb-lg-3'>
-                        <a className='btn btn-outline-secondary btn-lg text-black' href='#'>
+                        <a className='btn btn-outline-secondary btn-lg text-black' href='src/layouts/HomePage/components/LibraryServices#'>
                             Sign up
                         </a>
                     </div>

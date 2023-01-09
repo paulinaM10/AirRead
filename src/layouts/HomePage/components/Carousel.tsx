@@ -2,17 +2,17 @@ import {ReturnBook} from "./ReturnBook";
 
 export const Carousel = () => {
     return (
-        <div className='container mt-5' style={{height: 550}}>
+        <div className='container mt-0' style={{height: 550}}>
             <div className='homepage-carousel-title'>
-                <h3>Find out what is trending on BookTok.</h3>
+                <h3><span>New in</span></h3>
             </div>
-            <div id='carouselExampleControls' className='carousel carousel-dark slide mt-5
-                 d-none d-lg-block' data-bs-interval='false'>
+            <div id='carouselExampleControls' className='carousel  carousel-dark slide mt-5
+                 d-none d-lg-block ' data-bs-interval='false'>
 
                 {/* Desktop */}
                 <div className='carousel-inner'>
                     <div className='carousel-item active'>
-                        <div className='row d-flex justify-content-center align-items-center'>
+                        <div className='row d-flex  justify-content-center  align-items-center'>
 
                             {/* reusable component*/}
                             <ReturnBook/>
@@ -63,7 +63,7 @@ export const Carousel = () => {
                 </div>
             </div>
             <div className='homepage-carousel-title mt-3'>
-                <a className='btn btn-outline-secondary btn-lg text-black' href='#'>View More</a>
+                <a className='btn btn-outline-secondary btn-lg text-black' href='src/layouts/HomePage/components/Carousel#'>View More</a>
             </div>
         </div>
     );
