@@ -13,7 +13,6 @@ The library requires a new system for books that in future will be used to read 
 </ul>
 
 <h2>Screenshots</h2>
-![Screenshot 2023-02-10 at 14 58 23](https://user-images.githubusercontent.com/93612678/218125891-478a75a7-7f1f-48fa-a95d-213fb7112493.png)
 
 
 <h2>Features</h2>
